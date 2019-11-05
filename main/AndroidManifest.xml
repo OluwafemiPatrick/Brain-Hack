@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.olarewajuoluwafemi34.rambo">
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".numberGuess.level7"></activity>
+        <activity android:name=".numberGuess.level6" />
+        <activity android:name=".numberGuess.level5" />
+        <activity android:name=".numberGuess.level4" />
+        <activity android:name=".numberGuess.level3" />
+        <activity android:name=".numberGuess.level2" />
+        <activity android:name=".numberGuess.level1" />
+        <activity
+            android:name=".MemoryGame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutGame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NumberGuess"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScorePage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Calculator"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

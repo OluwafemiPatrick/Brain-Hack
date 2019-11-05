@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".MemoryGame">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="20sp"
+            android:text="@string/score"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textDifficulty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/textWatchGO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingVertical="10sp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/bttn1"
+            android:layout_width="180sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center"
+            android:paddingTop="20sp"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/bttn2"
+            android:layout_width="180sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/bttn3"
+            android:layout_width="180sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/bttn4"
+            android:layout_width="180sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/bttnReplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/replay"
+
+            />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

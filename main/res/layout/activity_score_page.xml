@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beach"
+    tools:context=".ScorePage">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:text="@string/app_name"
+        android:textColor="@color/colorWhite"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="@string/highLevel"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:text="@string/highScore"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="@string/calculator"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/calcLevel"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_row="1"
+            android:layout_column="1" />
+
+        <TextView
+            android:id="@+id/calcScore"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_row="1"
+            android:layout_column="2" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="@string/memGame"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/memLevel"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_row="2"
+            android:layout_column="1" />
+
+        <TextView
+            android:id="@+id/memScore"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_row="2"
+            android:layout_column="2" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="@string/numGuess"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/numGuessLevel"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_row="3"
+            android:layout_column="1" />
+
+        <TextView
+            android:id="@+id/numGuessScore"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_row="3"
+            android:layout_column="2" />
+
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>

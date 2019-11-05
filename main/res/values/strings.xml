@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Leo</string>
+    <string name="calculator">Calculator</string>
+    <string name="numGuess">Number Guess</string>
+    <string name="memGame">Memory Test</string>
+    <string name="score">Score</string>
+    <string name="aboutGame">About Game</string>
+    <string name="instructions">Instruction</string>
+    <string name="replay">Replay</string>
+    <string name="highScore">High Score</string>
+    <string name="highLevel">High Level</string>
+    <string name="myName">Oluwafemi Patrick O</string>
+    <string name="myEmail">olarewajuoluwafemi34@gmail.com</string>
+    <string name="myLinkedIn">Connect on LinkedIn</string>
+</resources>
